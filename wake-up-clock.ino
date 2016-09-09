@@ -91,7 +91,7 @@ void setup(){
 
   rtc.writeProtect(false);
   rtc.halt(false);
-  Time t(2016, 5, 29, 13, 51, 40, Time::kSunday);
+  Time t(2016, 7, 25, 23, 31, 00, Time::kSunday);
   rtc.time(t);
 }
 
